@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Green Food</string>
+    <string name="enter_phone_number_text_view">Введите ваш номер</string>
+    <string name="continue_btn">Далее</string>
+    <string name="sign_up_btn">Зарегистрироваться</string>
+    <string name="sign_in_btn">Войти</string>
+    <string name="forgot_password_btn">Забыли пароль?</string>
+    <string name="sign_in_by_phone_number_btn">Войти по телефону</string>
+    <string name="sign_up_by_email_btn">Зарегистрироваться по Эл.почте</string>
+    <string name="sign_out_btn">Выйти из аккаунта</string>
+    <string name="add_catalog_btn">Добавить каталог</string>
+    <string name="add_product_btn">Добавить продукт</string>
+
+    <string name="sms_code_fragment_label">Подтверждение номера</string>
+    <string name="your_number_label">Ваш номер</string>
+    <string name="empty_basket_label">Здесь будут лежать товары для покупки</string>
+
+    <string name="password_size_tip">Не менее 8-ми символов</string>
+    <string name="welcome_tip">Войдите чтобы заказать продукты</string>
+
+    <string name="is_empty_fields_snackbar">Пожалуйста, заполните поля</string>
+    <string name="password_re_password_not_equals">Ваши пароли не совпадают</string>
+    <string name="password_length_less_than_8">Ваш пароль меньше 8 символов</string>
+
+    <string name="get_sms_code">Получить код в SMS</string>
+    <string name="enter_password">Введите ваш пароль</string>
+    <string name="phone_country_code">+7</string>
+    <string name="tip_enter_sms_code">Введите код подтверждения, отправленный вам по SMS</string>
+    <string name="re_send_sms_code">Отправить еще раз</string>
+    <string name="verify_sent_sms_code">Подтвердить</string>
+    <string name="empty_basket">Ваша корзина пуста</string>
+    <string name="go_to_catalog">Перейти в каталог</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="sign_in_to_profile">Войти в профиль</string>
+    <string name="sign_in_by_email">Войти по почте</string>
+
+    <string name="e_mail_hint">E-mail адрес</string>
+    <string name="password_hint">Пароль</string>
+    <string name="your_name_hint">Ваше имя</string>
+    <string name="your_birthday_hint">Дата рождения</string>
+    <string name="mobile_phone_hint">Мобильный телефон</string>
+    <string name="re_password_hint">Повторить пароль</string>
+    <string name="enter_sms_code_hint">Введите код</string>
+    <string name="enter_catalog_name_hint">Введите название каталога</string>
+    <string name="enter_catalog_image_url_hint">Введите ссылку изображения каталога</string>
+    <string name="enter_product_price_hint">Введите цену продукта</string>
+    <string name="enter_product_name_hint">Введите название продукта</string>
+    <string name="enter_product_description_hint">Введите описание продукта</string>
+    <string name="enter_product_image_hint">Введите ссылку изображения продукта</string>
+    <string name="enter_product_catalog_hint">Выберите каталог</string>
+    <string name="enter_product_count_hint">Введите количество продукта</string>
+    <string name="enter_product_country_hint">Введите страну производства продукта</string>
+    <string name="enter_product_pesticide_hint">Введите есть ли пестициды</string>
+
+
+    <string name="searchMenu">Поиск</string>
+    <string name="mainMarketMenu">Главная</string>
+    <string name="catalogMenu">Каталог</string>
+    <string name="basketMenu">Корзина</string>
+    <string name="profileMenu">Профиль</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

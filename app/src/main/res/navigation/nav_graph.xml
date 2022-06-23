@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sign_up_nav"
+    app:startDestination="@id/mainMarketFragment">
+
+    <fragment
+        android:id="@+id/mainMarketFragment"
+        android:name="com.greenFood.market.fragments.MainMarketFragment"
+        android:label="fragment_main_market"
+        tools:layout="@layout/fragment_main_market" >
+        <action
+            android:id="@+id/action_mainMarketFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/marketSearchFragment"
+        android:name="com.greenFood.market.fragments.MarketSearchFragment"
+        android:label="fragment_market_search"
+        tools:layout="@layout/fragment_market_search" >
+        <action
+            android:id="@+id/action_marketSearchFragment_to_productListFragment"
+            app:destination="@id/productListFragment"
+            app:popUpTo="@id/productListFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_marketSearchFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/marketBasketFragment"
+        android:name="com.greenFood.market.fragments.MarketBasketFragment"
+        android:label="fragment_market_basket"
+        tools:layout="@layout/fragment_market_basket" >
+        <action
+            android:id="@+id/action_marketBasketFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/marketCatalogFragment"
+        android:name="com.greenFood.market.fragments.MarketCatalogFragment"
+        android:label="fragment_market_catalog"
+        tools:layout="@layout/fragment_market_catalog" >
+        <action
+            android:id="@+id/action_marketCatalogFragment_to_productListFragment"
+            app:destination="@id/productListFragment"
+            app:popUpTo="@id/productListFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.greenFood.market.fragments.ProductListFragment"
+        android:label="fragment_product_list"
+        tools:layout="@layout/fragment_product_list" >
+        <action
+            android:id="@+id/action_productListFragment_to_productDetailsFragment"
+            app:destination="@id/productDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.greenFood.market.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_signUpEnterPhoneNumberFragment2"
+            app:destination="@id/signUpEnterPhoneNumberFragment"
+            app:popUpTo="@id/signUpEnterPhoneNumberFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpEnterPhoneNumberFragment"
+        android:name="com.greenFood.market.fragments.auth.SignUpEnterPhoneNumberFragment"
+        android:label="SignUpEnterPhoneNumberFragment" >
+        <action
+            android:id="@+id/action_signUpEnterPhoneNumberFragment_to_signUpEnterSmsCode"
+            app:destination="@id/signUpEnterSmsCode"
+            app:popUpTo="@id/signUpEnterSmsCode"
+            app:popUpToInclusive="true"  />
+        <action
+            android:id="@+id/action_signUpEnterPhoneNumberFragment_to_signInByEmailFragment2"
+            app:destination="@id/signInByEmailFragment"
+            app:popUpTo="@id/signInByEmailFragment"
+            app:popUpToInclusive="true"  />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpEnterSmsCode"
+        android:name="com.greenFood.market.fragments.auth.SignUpEnterSmsCode"
+        android:label="SignUpEnterSmsCode" />
+    <fragment
+        android:id="@+id/signInByEmailFragment"
+        android:name="com.greenFood.market.fragments.auth.SignInByEmailFragment"
+        android:label="fragment_sign_in_by_email"
+        tools:layout="@layout/fragment_sign_in_by_email" >
+        <action
+            android:id="@+id/action_signInByEmailFragment2_to_signUpByEmailFragment"
+            app:destination="@id/signUpByEmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpByEmailFragment"
+        android:name="com.greenFood.market.fragments.auth.SignUpByEmailFragment"
+        android:label="fragment_sign_up_by_email"
+        tools:layout="@layout/fragment_sign_up_by_email" />
+    <fragment
+        android:id="@+id/profileAuthenticatedUserFragment"
+        android:name="com.greenFood.market.fragments.ProfileAuthenticatedUserFragment"
+        android:label="fragment_profile_authenticated_user"
+        tools:layout="@layout/fragment_profile_authenticated_user" />
+    <fragment
+        android:id="@+id/profileAuthenticatedAdminFragment"
+        android:name="com.greenFood.market.fragments.ProfileAuthenticatedAdminFragment"
+        android:label="fragment_profile_authenticated_admin"
+        tools:layout="@layout/fragment_profile_authenticated_admin" >
+        <action
+            android:id="@+id/action_profileAuthenticatedAdminFragment_to_addCatalogFragment"
+            app:destination="@id/addCatalogFragment"
+            app:popUpTo="@id/addCatalogFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_profileAuthenticatedAdminFragment_to_addProductFragment"
+            app:destination="@id/addProductFragment"
+            app:popUpTo="@id/addProductFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCatalogFragment"
+        android:name="com.greenFood.market.fragments.admin.AddCatalogFragment"
+        android:label="fragment_add_catalog"
+        tools:layout="@layout/fragment_add_catalog" />
+    <fragment
+        android:id="@+id/addProductFragment"
+        android:name="com.greenFood.market.fragments.admin.AddProductFragment"
+        android:label="fragment_add_product"
+        tools:layout="@layout/fragment_add_product" />
+    <fragment
+        android:id="@+id/productDetailsFragment"
+        android:name="com.greenFood.market.fragments.ProductDetailsFragment"
+        android:label="fragment_product_details"
+        tools:layout="@layout/fragment_product_details" />
+
+</navigation>

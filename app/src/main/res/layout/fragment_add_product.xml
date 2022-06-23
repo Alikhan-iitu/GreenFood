@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.greenFood.market.fragments.admin.AddProductFragment"
+    android:orientation="vertical"
+    android:layout_marginBottom="70dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/product_name_ett"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:hint="@string/enter_product_name_hint"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/product_description_ett"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:hint="@string/enter_product_description_hint"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/product_price_ett"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:inputType="number"
+            android:hint="@string/enter_product_price_hint"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/product_count_ett"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:inputType="number"
+            android:hint="@string/enter_product_count_hint"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/product_catalog_ett"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:hint="Введите каталог"/>
+<!--        <Spinner-->
+<!--            android:id="@+id/product_catalog_spinner"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:layout_marginTop="24dp"/>-->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/product_image_ett"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:hint="@string/enter_product_image_hint"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/product_country_ett"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:hint="@string/enter_product_country_hint"/>
+
+        <CheckBox
+            android:id="@+id/pesticide_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/enter_product_pesticide_hint"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_product_btnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:text="Добавить продукт" />
+
+    </LinearLayout>
+
+</ScrollView>

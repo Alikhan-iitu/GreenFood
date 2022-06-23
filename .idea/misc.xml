@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/drawable-anydpi/ic_action_add.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/drawable-anydpi/ic_action_back.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/drawable-anydpi/ic_action_basket.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/drawable-anydpi/ic_action_catalog.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/drawable-anydpi/ic_action_delete.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/drawable-anydpi/ic_action_main_market.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/drawable-anydpi/ic_action_minus.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/drawable-anydpi/ic_action_profile.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/drawable-anydpi/ic_action_search.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/drawable/ic_launcher_background.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/activity_fragment.xml" value="0.14375" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/activity_main.xml" value="0.14814814814814814" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/basket_item.xml" value="0.152" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/catalog_item.xml" value="0.25" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_add_catalog.xml" value="0.14375" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_add_product.xml" value="0.14375" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_main_market.xml" value="0.14375" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_market_basket.xml" value="0.37962962962962965" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_market_catalog.xml" value="0.264" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_market_search.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_product_details.xml" value="0.19747899159663865" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_product_list.xml" value="0.14375" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_profile_authenticated_admin.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_profile_authenticated_user.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_sign_in_by_email.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_sign_up_by_email.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_sign_up_enter_phone_number.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/fragment_sign_up_enter_sms_code.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/layout/product_item.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/menu/bottom_menu.xml" value="0.14375" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/menu/bottom_menu_admin.xml" value="0.14375" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/alikh/AndroidStudioProjects/GreenFood/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.28615384615384615" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
